@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'BebasNeue Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Font/AABebasNeue.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Font/Gilroy-Regular_0.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@import 'header';
+@import 'interface';

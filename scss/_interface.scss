@@ -1,0 +1,42 @@
+.button-o {
+    margin-top: 29px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: Gilroy, sans-serif;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 31px;
+
+    img {
+        margin-right: 20px;
+        padding-top: 14px;
+        line-height: 50px;
+        padding-bottom: 14px;
+        padding-right: 14px;
+        vertical-align: middle;
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+
+.button {
+    padding: 38px 68px;
+    box-shadow: 0 4px 0 #1b9299, inset 0 2px 3px rgba(255, 255, 255, 0.15), inset 0 -3px 3px rgba(255, 255, 255, 0.1);
+    border-radius: 43px;
+    background: linear-gradient(to top, #1aa3ab 0%, #17dee9 100%), linear-gradient(to top, #000000 0%, #ffffff 100%);
+    color: #ffffff;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-align: center;
+    outline: none;
+}
