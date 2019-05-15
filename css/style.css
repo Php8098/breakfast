@@ -30,6 +30,9 @@ body {
 .header-logo {
   padding: 0;
   padding-top: 14px;
+  background: url("../img/logo.png");
+  width: 270px;
+  height: 80px;
 }
 
 .header-menu {
@@ -67,44 +70,6 @@ body {
 .header-main {
   max-width: 1239px;
   height: 677px;
-}
-
-.header-main__images {
-  display: inline-block;
-}
-
-.header-main__a {
-  position: relative;
-  top: -1039px;
-  left: 755px;
-  display: inline-block;
-  width: 495px;
-  height: 445px;
-}
-
-.header-main__z {
-  position: relative;
-  top: -810px;
-  left: 355px;
-  display: inline-block;
-  z-index: 1;
-  width: 379px;
-  height: 459px;
-  -webkit-box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.15), inset 0 -3px 3px rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.15), inset 0 -3px 3px rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.15), inset 0 -3px 3px rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.15), inset 0 -3px 3px rgba(255, 255, 255, 0.1);
-}
-
-.header-main__girl {
-  position: relative;
-  width: 452px;
-  height: 674px;
-  z-index: 2;
-  height: 506px;
-  display: inline-block;
-  top: -588px;
-  left: 35px;
 }
 
 .header-main__text {
@@ -274,4 +239,79 @@ body {
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0.2px;
+}
+
+@media (max-width: 576px) {
+  .header {
+    background: url("../img/bg-mobile.png") no-repeat;
+  }
+
+  .header-logo {
+    margin: 0 auto;
+  }
+
+  .header-menu {
+    color: #303030;
+    max-width: 576px;
+    display: block;
+  }
+
+  .header-menu__wrap {
+    display: block;
+    margin-left: 0;
+    max-width: 576px;
+  }
+
+  .header-menu__data {
+    margin-left: 43px;
+    display: inline-block;
+  }
+
+  .header-menu__tel {
+    display: inline-block;
+  }
+
+  .header-main {
+    max-width: 576px;
+    margin-left: 35px;
+  }
+
+  .header-main__text h1 {
+    margin-top: 70px;
+    font-size: 80px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .button-o {
+    margin: auto;
+    display: block;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    color: #303030;
+    margin-top: 20px;
+  }
+
+  .button-o img {
+    border-right: 1px solid rgba(48, 48, 48, 0.3);
+  }
+
+  .section-value__advantages {
+    margin-bottom: 50px;
+  }
+
+  .section-value__advantages__wrap {
+    display: block;
+    max-width: 375px;
+  }
+
+  .section-value-forWhat__blocks {
+    display: block;
+    max-width: 375px;
+  }
+
+  .section-value-forWhat__block {
+    margin-bottom: 50px;
+  }
 }
