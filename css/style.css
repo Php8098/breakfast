@@ -136,9 +136,10 @@ body {
 
 .button-o img {
   margin-right: 20px;
-  padding-top: 14px;
+  margin-top: -1px;
+  padding-top: 15px;
   line-height: 50px;
-  padding-bottom: 14px;
+  padding-bottom: 17px;
   padding-right: 14px;
   vertical-align: middle;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
