@@ -12,6 +12,10 @@
     src: url(../Font/Gilroy-Regular_0.ttf);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -24,4 +28,5 @@ body {
 @import 'header';
 @import 'interface';
 @import 'value';
+@import 'withWho';
 @import 'media';
