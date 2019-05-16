@@ -119,4 +119,21 @@
             }
         }
     }
+
+    .section-price__rates {
+        background: #ffffff;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .section-price__rate {
+        margin-bottom: 40px;
+    }
+
+    .action {
+        margin: 0 auto;
+        margin-top: 762px;
+        width: 320px;
+    }
 }
