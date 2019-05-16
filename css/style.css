@@ -162,6 +162,7 @@ body {
   letter-spacing: 0.7px;
   text-align: center;
   outline: none;
+  border: 0px;
 }
 
 .blue {
