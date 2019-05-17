@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
     <title>Завтрак</title>
 </head>
@@ -80,7 +82,7 @@
             <div class="section-value-forWhat">
                 <div class="section-title">зачем нужен <span class="blue">завтрак</span></div>
                 <!-- /.section-title -->
-                <div class="section-value-forWhat__desc">Вы – это среднее арифметическое из 10 людей<br>
+                <div class="section-desc">Вы – это среднее арифметическое из 10 людей<br>
                         вашего ближайшего окружения</div>
                 <!-- /.section-value-forWhat__desc -->
                 <div class="section-value-forWhat__blocks">
@@ -148,7 +150,7 @@
     <section class="section-price">
         <div class="section-title">стоимость <span class="blue">участия</span></div>
         <!-- /.section title -->
-        <div class="section-price__desc">Выберите удобный формат участия при покупке</div>
+        <div class="section-desc">Выберите удобный формат участия при покупке</div>
         <!-- /.section-price__desc -->
         <div class="section-price__rates">
             <div class="section-price__rate">
@@ -190,7 +192,7 @@
     <section class="section-parsing">
         <div class="section-title section-title_white"><span class="blue">разбор</span> от танзили гариповой</div>
         <!-- /.section-title -->
-        <div class="section-parsing__desc">Получите индивидуальный разбор вашему вопросу от лидера рынка</div>
+        <div class="section-desc section-desc_white">Получите индивидуальный разбор вашему вопросу от лидера рынка</div>
         <!-- /.section-parsing__desc -->
         <div class="section-parsing__get">
             <div class="section-title section-title_small section-title_white">что <span class="blue">вы получите</span></div>
@@ -208,5 +210,61 @@
         <!-- /.button -->
     </section>
     <!-- /.section-parsing -->
+
+    <section class="section-feedback">
+        <div class="section-title"><span class="blue">отзывы</span> участников</div>
+        <!-- /.section-title -->
+        <div class="section-desc">Посмотрие, что говорят участники завтраков</div>
+        <!-- /.section-desc -->
+        <div class="feedback-slider">
+            <div class="feedback-slide feedback-slide-1">
+                <button class="button-play">
+                    <img src="img/play.png" alt="">
+                </button>
+            </div>
+            <div class="feedback-slide feedback-slide-2">
+                <button class="button-play">
+                    <img src="img/play.png" alt="">
+                </button>
+            </div>
+            <div class="feedback-slide feedback-slide-3">
+                <button class="button-play">
+                    <img src="img/play.png" alt="">
+                </button>
+            </div>
+            <div class="feedback-slide feedback-slide-4">
+                <button class="button-play">
+                    <img src="img/play.png" alt="">
+                </button>
+            </div>
+            <div class="feedback-slide feedback-slide-5">
+                <button class="button-play">
+                    <img src="img/play.png" alt="">
+                </button>
+            </div>
+            <div class="feedback-slide feedback-slide-6">
+                <button class="button-play">
+                    <img src="img/play.png" alt="">
+                </button>
+            </div>
+        </div>
+        <!-- /.feedback-slider -->
+        <button class="button">принять участие</button>
+        <!-- /.button -->
+    </section>
+    <!-- /.section-feedback -->
+
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.feedback-slider').slick({
+            infinite: false,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            dots: false
+        });
+    });
+    </script>
 </body>
 </html>

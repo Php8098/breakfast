@@ -50,6 +50,14 @@
         margin-top: 54px;
         margin-bottom: 57px;
     }
+
+    &-play {
+        background: transparent;
+        padding: 16px;
+        border-radius: 50px;
+        outline: none;
+        border: 1px solid rgba(#17dee9, 0.35);
+    }
 }
 
 .blue {
@@ -65,4 +73,16 @@
     letter-spacing: 3.76px;
     text-align: center;
     padding-top: 61px;
+}
+.section-desc {
+    color: #303030;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 13px;
+    &_white {
+        color: #ffffff;
+    }
 }

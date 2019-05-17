@@ -177,6 +177,14 @@ body {
   margin-bottom: 57px;
 }
 
+.button-play {
+  background: transparent;
+  padding: 16px;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid rgba(23, 222, 233, 0.35);
+}
+
 .blue {
   color: #17dee9;
 }
@@ -190,6 +198,20 @@ body {
   letter-spacing: 3.76px;
   text-align: center;
   padding-top: 61px;
+}
+
+.section-desc {
+  color: #303030;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.section-desc_white {
+  color: #ffffff;
 }
 
 .section-price {
@@ -443,6 +465,40 @@ body {
 .section-title_small {
   font-size: 40px;
   padding-top: 27px;
+}
+
+.feedback-slide {
+  width: 460px;
+  height: 300px;
+  -webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 310px;
+}
+
+.feedback-slide-1 {
+  background: url("../img/slider-1/img-1.png") center no-repeat;
+}
+
+.feedback-slide-2 {
+  background: url("../img/slider-1/img-2.png") center no-repeat;
+}
+
+.feedback-slide-3 {
+  background: url("../img/slider-1/img-3.png") center no-repeat;
+}
+
+.feedback-slide-4 {
+  background: url("../img/slider-1/img-4.png") center no-repeat;
+}
+
+.feedback-slide-5 {
+  background: url("../img/slider-1/img-5.png") center no-repeat;
+}
+
+.feedback-slide-6 {
+  background: url("../img/slider-1/img-6.png") center no-repeat;
 }
 
 @media (max-width: 576px) {
