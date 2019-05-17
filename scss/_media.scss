@@ -153,6 +153,10 @@
             li {
                 font-size: 15px;
             }
+            .section-title {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
         }
 
     }
@@ -173,5 +177,12 @@
     }
     .button {
         padding: 28.5px 51px;
+    }
+    .section-parsing {
+        .section-title {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
     }
 }

@@ -602,6 +602,11 @@ body {
     font-size: 15px;
   }
 
+  .section-parsing__get .section-title {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .section-title {
     font-size: 50px;
   }
@@ -621,5 +626,10 @@ body {
 
   .button {
     padding: 28.5px 51px;
+  }
+
+  .section-parsing .section-title {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
