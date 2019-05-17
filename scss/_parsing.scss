@@ -1,0 +1,50 @@
+.section-parsing {
+    background: url(../img/bg-4.png) center no-repeat;
+    text-align: center;
+    &__desc {
+        color: #ffffff;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 13px;
+    }
+    &__get {
+        width: 330px;
+        height: 260px;
+        border-radius: 10px;
+        background-color: rgba(#ffffff, 0.13);
+        margin-left: 20%;
+        margin-top: 111px;
+        margin-bottom: 50px;
+    }
+    ul {
+        margin-left: -20px;
+        margin-top: 25px;
+    }
+    li {
+        list-style: none;
+        text-align: left;
+        color: #ffffff;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .button {
+        margin-bottom: 22px;
+    }
+}
+
+.section-title {
+
+    &_white {
+        color: #ffffff;
+    }
+    &_small {
+        font-size: 40px;
+        padding-top: 27px;
+    }
+}
