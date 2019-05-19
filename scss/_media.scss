@@ -186,6 +186,45 @@
 
     }
     .feedback-slider {
-        max-width: 100%;
+        max-width: 90%;
+    }
+    .photos-slider {
+        margin: 0;
+        height: 270px !important;
+        margin-left: 15%;
+    .slick-slide {
+        opacity: 1 !important;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    .slick-track, .draggable {
+        margin-left: -6% !important;
+    }
+    }
+    .footer {
+        display: block;
+        text-align: center;
+        width: 100%;
+        .copy {
+            margin-left: 0;
+        }
+        .button-o {
+            margin: 0 auto;
+            margin-top: 52px;
+        }
+    }
+    .popup {
+        width: 336px;
+        input {
+            margin-left: 20px;
+            padding: 24px 35.2px;
+        }
+        .button-a {
+            margin-left: 15px;
+            padding: 34.2px 82.2px;
+        }
+        .note {
+            margin-left: 40px;
+        }
     }
 }

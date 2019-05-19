@@ -182,6 +182,7 @@ body {
   border-radius: 50px;
   outline: none;
   border: 1px solid rgba(23, 222, 233, 0.35);
+  z-index: 10;
 }
 
 .blue {
@@ -928,6 +929,56 @@ form {
   }
 
   .feedback-slider {
-    max-width: 100%;
+    max-width: 90%;
+  }
+
+  .photos-slider {
+    margin: 0;
+    height: 270px !important;
+    margin-left: 15%;
+  }
+
+  .photos-slider .slick-slide {
+    opacity: 1 !important;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+
+  .photos-slider .slick-track,
+  .photos-slider .draggable {
+    margin-left: -6% !important;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer .copy {
+    margin-left: 0;
+  }
+
+  .footer .button-o {
+    margin: 0 auto;
+    margin-top: 52px;
+  }
+
+  .popup {
+    width: 336px;
+  }
+
+  .popup input {
+    margin-left: 20px;
+    padding: 24px 35.2px;
+  }
+
+  .popup .button-a {
+    margin-left: 15px;
+    padding: 34.2px 82.2px;
+  }
+
+  .popup .note {
+    margin-left: 40px;
   }
 }
