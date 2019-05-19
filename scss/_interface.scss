@@ -86,3 +86,31 @@
         color: #ffffff;
     }
 }
+
+.slick {
+    &-prev {
+        width: 16px;
+        height: 20px;
+        background: url(../img/prev.png) center no-repeat !important;
+        &:before {
+            content: '' !important;
+        }
+    }
+    &-next {
+        background: url(../img/next.png) center no-repeat !important;
+        &:before {
+            content: '' !important;
+        }
+    }
+    &-center {
+        width: 8% !important;
+        height: auto !important;
+        opacity: 1 !important;
+        // margin-left: -35px;
+        // margin-right: -35px;
+        margin-top: 0 !important;
+    }
+}
+.slick-prev {
+    z-index: 1;
+}

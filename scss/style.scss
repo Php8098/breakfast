@@ -14,7 +14,6 @@
 
 * {
     box-sizing: border-box;
-    max-width: 100%;
 }
 
 body {
@@ -34,4 +33,7 @@ body {
 @import 'withWho';
 @import 'parsing';
 @import 'feedback';
+@import 'photos';
+@import 'footer';
+@import 'popup';
 @import 'media';

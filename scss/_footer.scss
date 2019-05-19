@@ -1,0 +1,37 @@
+.footer {
+	width: 1171px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 210px;
+	padding-bottom: 29px;
+	.button-o {
+		margin: 0;
+		margin-top: 52px;
+		border: 1px solid #303030;
+		color: #303030;
+		img {
+			border-right: 1px solid #303030;
+		}
+	}
+}
+.bottom {
+	background: url(../img/bg-5.png) center no-repeat;
+	width: 100%;
+}
+.logo {
+	
+	margin-top: 27px;
+}
+.tel {
+	color: #303030;
+	font-family: Gilroy;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 68px;
+}
+
+.copy {
+	margin-top: 57px;
+	margin-left: 253px;
+}

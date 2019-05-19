@@ -1,0 +1,26 @@
+.section-photos {
+	text-align: center;
+	.slick-slide{
+		height: auto;
+		opacity: 0.6;
+		margin-top: 100px;
+	}
+	.slick-next {
+		left: 75%;
+		top: 75%;
+	}
+	.slick-prev {
+		left: 24%;
+		opacity: 1;
+		top: 75%;
+		z-index: 1;
+	}
+	.slick-track, .draggable {
+		height: 160% !important;
+		margin-left: -5% !important;
+	}
+}
+.photos-slider {
+	height: 405px;
+	margin-top: 32px;
+}
