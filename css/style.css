@@ -654,8 +654,8 @@ body {
 
 .close {
   position: absolute;
-  right: -20px;
-  top: -20px;
+  right: -10px;
+  top: -15px;
   font-size: 35px;
   color: #000;
   font-weight: 300;
