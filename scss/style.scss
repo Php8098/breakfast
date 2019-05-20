@@ -12,6 +12,13 @@
     src: url(../Font/Gilroy-Regular_0.ttf);
 }
 
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Font/Gilroy-SemiBold_0.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -27,13 +34,13 @@ body {
 }
 
 @import 'header';
+@import 'photos';
 @import 'interface';
 @import 'price';
 @import 'value';
 @import 'withWho';
 @import 'parsing';
 @import 'feedback';
-@import 'photos';
 @import 'footer';
 @import 'popup';
 @import 'media';

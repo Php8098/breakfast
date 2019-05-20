@@ -5,31 +5,46 @@
     font-size: 12px;
     font-weight: 400;
     color: #ffffff;
-    font-family: Gilroy, sans-serif;
+    font-family: 'Gilroy-SemiBold', sans-serif;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 25px;
-    height: 50px;
+    border-radius: 50px;
+    height: 45px;
     width: 200px;
     text-align: center;
     vertical-align: middle;
     margin-left: 31px;
     outline: none;
+    transition: 0.5s ease-in-out;
 
-    img {
-        margin-right: 20px;
-        margin-top: -1px;
-        padding-top: 15px;
-        line-height: 50px;
-        padding-bottom: 17px;
+    span {
+        padding-top: 6px;
+    }
+
+    &:hover {
+        background: #0090ff;
+        svg {
+            fill: #fff;
+        }
+    }
+
+    svg {
+        margin-right: 15px;
+        padding-top: 13px;
+        padding-bottom: 13px;
         padding-right: 14px;
         vertical-align: middle;
         border-right: 1px solid rgba(255, 255, 255, 0.3);
+        fill: #17dee9;
+        box-sizing: content-box;
     }
 }
 
 .button {
-    padding: 38px 68px;
+    width: 320px;
+    height: 86px;
+    text-align: center;
+    line-height: 86px;
     box-shadow: 0 4px 0 #1b9299, inset 0 2px 3px rgba(255, 255, 255, 0.15), inset 0 -3px 3px rgba(255, 255, 255, 0.1);
     border-radius: 43px;
     background: linear-gradient(to top, #1aa3ab 0%, #17dee9 100%), linear-gradient(to top, #000000 0%, #ffffff 100%);
@@ -41,7 +56,13 @@
     letter-spacing: 0.7px;
     text-align: center;
     outline: none;
+    transition: all 0.5s ease-in-out;
     border: 0px;
+
+    &:hover {
+        transform: translateY(2px);
+        background: linear-gradient(to top, #208c92 0%, #1ec6cf 100%), linear-gradient(to top, #000000 0%, #ffffff 100%)
+    }
 
     &-price {
         padding: 34px 42px;
@@ -104,12 +125,15 @@
         }
     }
     &-center {
-        width: 8% !important;
+        width: 3% !important;
         height: auto !important;
         opacity: 1 !important;
-        // margin-left: -35px;
-        // margin-right: -35px;
         margin-top: 0 !important;
+        margin-bottom: 50px;
+        img {
+            width: 100% !important;
+            height: auto !important; 
+        }
     }
 }
 .slick-prev {

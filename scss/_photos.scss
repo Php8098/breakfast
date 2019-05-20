@@ -1,12 +1,15 @@
 .section-photos {
 	text-align: center;
-	.slick-slide{
+	.slick-slide {
 		height: auto;
 		opacity: 0.6;
-		margin-top: 100px;
+		margin-top: 170px;
+		img {
+			height: 270px;
+		}
 	}
 	.slick-next {
-		left: 75%;
+		left: 73%;
 		top: 75%;
 	}
 	.slick-prev {

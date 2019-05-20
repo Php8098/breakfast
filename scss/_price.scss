@@ -1,5 +1,5 @@
 .section-price {
-    background: #fff;
+    background: url(../img/bg-7.png) center no-repeat;
     &__desc {
         color: #303030;
         font-family: Gilroy;
@@ -15,21 +15,23 @@
         width: 320px;
         height: 330px;
         box-shadow: 0 5px 30px rgba(48, 48, 48, 0.05);
-        border-radius: 10px 0 0 10px;
+        border-radius: 10px;
         background-color: #ffffff;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        z-index: 3;
     }
 
     &__rates {
-        background: url(../img/bg-3.png) center no-repeat;
         display: flex;
+        box-shadow: 0 5px 30px rgba(48, 48, 48, 0.05);
         margin: 0 auto;
         width: 960px;
         margin-top: 70px;
         margin-bottom: 42px;
-        height: 351px;
+        height: 330px;
+        z-index: 3;
     }
 
     &__date {
