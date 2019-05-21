@@ -991,6 +991,7 @@ form {
 
   .withWho-img {
     text-align: center;
+    margin-left: 0;
   }
 
   .withWho-img img {
@@ -1051,10 +1052,6 @@ form {
     font-size: 45px;
   }
 
-  .button {
-    padding: 28.5px 51px;
-  }
-
   .section-parsing .section-title {
     margin-left: 10px;
     margin-right: 10px;
@@ -1075,39 +1072,63 @@ form {
   .photos-slider {
     margin: 0;
     height: 270px !important;
-    width: 90%;
-    margin: 0 auto;
+    width: 89%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -50px;
   }
 
-  .photos-slider .slick-next {
-    top: 65%;
-    right: -15%;
+  .photos-slider .photos-slide {
+    opacity: 1;
   }
 
-  .photos-slider .slick-prev {
-    top: 65%;
-    left: 5%;
+  .photos-slider .photos-slide-1 {
+    background: url("../img/slider-2/img-1_mobile.png") center no-repeat;
   }
 
-  .photos-slider .slick-slide {
-    opacity: 1 !important;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+  .photos-slider .photos-slide-2 {
+    background: url("../img/slider-2/img-2_mobile.png") center no-repeat;
   }
 
-  .photos-slider .slick-slide img {
-    height: 200px !important;
-    width: 300px !important;
+  .photos-slider .photos-slide-3 {
+    background: url("../img/slider-2/img-3_mobile.png") center no-repeat;
+  }
+
+  .photos-slider .photos-slide-4 {
+    background: url("../img/slider-2/img-4_mobile.jpg") center no-repeat;
+  }
+
+  .photos-slider .photos-slide-5 {
+    background: url("../img/slider-2/img-5_mobile.jpg") center no-repeat;
+  }
+
+  .photos-slider .photos-slide-6 {
+    background: url("../img/slider-2/img-6_mobile.png") center no-repeat;
+  }
+
+  .photos-slider .photos-slide-7 {
+    background: url("../img/slider-2/img-7_mobile.png") center no-repeat;
   }
 
   .photos-slider .slick-track,
   .photos-slider .draggable {
-    margin-left: -9% !important;
+    margin-left: -6%;
+  }
+
+  .photos-slider .slick-next {
+    top: 90%;
+    right: -15%;
+  }
+
+  .photos-slider .slick-prev {
+    top: 90%;
+    left: 0%;
   }
 
   .footer {
     display: block;
     text-align: center;
+    margin-top: 150px;
     width: 100%;
   }
 
@@ -1134,8 +1155,12 @@ form {
   }
 
   .popup .button-a {
-    margin-left: 15px;
-    padding: 34.2px 82.2px;
+    width: 256px;
+    height: 68.8px;
+    line-height: 68.8px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -30px;
   }
 
   .popup .note {
@@ -1144,5 +1169,13 @@ form {
 
   iframe {
     max-width: 90% !important;
+  }
+
+  .rates-before {
+    display: none;
+  }
+
+  .rates-before-1 {
+    display: none;
   }
 }
