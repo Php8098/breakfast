@@ -245,9 +245,10 @@ body {
 }
 
 .button-price {
-  padding: 34px 42px;
-  height: 11px;
-  line-height: 5px;
+  width: 270px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
   margin-top: 54px;
   margin-bottom: 57px;
 }
