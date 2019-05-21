@@ -136,14 +136,14 @@ body {
 }
 
 .section-photos .slick-next {
-  left: 72%;
-  top: 54%;
+  left: 69.5%;
+  top: 50%;
 }
 
 .section-photos .slick-prev {
-  left: 24%;
+  left: 30.5%;
   opacity: 1;
-  top: 54%;
+  top: 50%;
   z-index: 1;
 }
 
@@ -196,7 +196,7 @@ body {
   opacity: 1;
   z-index: 14;
   margin-top: 32px;
-  margin-left: 2%;
+  margin-left: -18%;
 }
 
 .button-o {
