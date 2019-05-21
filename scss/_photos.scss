@@ -3,23 +3,23 @@
 	.slick-slide {
 		height: auto;
 		opacity: 0.6;
-		margin-top: 170px;
+		margin-top: 0.35%;
 		img {
 			height: 270px;
 		}
 	}
 	.slick-next {
-		left: 73%;
-		top: 75%;
+		left: 72%;
+		top: 54%;
 	}
 	.slick-prev {
 		left: 24%;
 		opacity: 1;
-		top: 75%;
+		top: 54%;
 		z-index: 1;
 	}
 	.slick-track, .draggable {
-		height: 160% !important;
+		height: 101.5% !important;
 		margin-left: -5% !important;
 	}
 }
