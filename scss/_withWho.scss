@@ -1,6 +1,5 @@
 .withWho {
     background: url(../img/bg-2.png) center no-repeat;
-    margin-top: 30px;
 
     &-desc {
         display: flex;
@@ -12,6 +11,7 @@
     &-img {
         width: 360px;
         height: 360px;
+        margin-right: -40px;
     }
 
     &-text {
@@ -24,6 +24,7 @@
         font-style: italic;
         line-height: 36px;
         letter-spacing: 2.51px;
+        margin-left: -50px;
         color: #303030;
         font-family: 'BebasNeue Regular';
     }
@@ -31,7 +32,7 @@
     &-advantages {
         ul {
             margin-top: 38px;
-            margin-left: -20px;
+            margin-left: -60px;
 
             li{
                 opacity: 0.77;

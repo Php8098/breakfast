@@ -22,7 +22,8 @@
     }
 
     &:hover {
-        background: #0090ff;
+        background: #303030;
+        color: #fff;
         svg {
             fill: #fff;
         }
@@ -34,6 +35,7 @@
         padding-bottom: 13px;
         padding-right: 14px;
         vertical-align: middle;
+        transition: 0.5s ease-in-out;
         border-right: 1px solid rgba(255, 255, 255, 0.3);
         fill: #17dee9;
         box-sizing: content-box;
@@ -123,17 +125,6 @@
         background: url(../img/next.png) center no-repeat !important;
         &:before {
             content: '' !important;
-        }
-    }
-    &-center {
-        width: 3% !important;
-        height: auto !important;
-        opacity: 1 !important;
-        margin-top: 0 !important;
-        margin-bottom: 10px;
-        img {
-            width: 100% !important;
-            height: 100% !important; 
         }
     }
 }
