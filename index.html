@@ -23,7 +23,7 @@
 					<div class="header-menu">
 						<div class="header-menu__data">27 апреля</div>
 						<!-- /.header-menu__data -->
-						<div class="header-menu__tel">+7 (999) 324-54-45</div>
+						<div class="header-menu__tel"><a href="tel:+79993245445">+7 (999) 324-54-45</a></div>
 						<!-- /.header-menu__tel -->
 						<button class="button-o">
 							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16" height="16" viewBox="0 0 480.56 480.56" style="enable-background:new 0 0 480.56 480.56;" xml:space="preserve">
@@ -178,7 +178,7 @@
 					<!-- /.button -->
 				</div>
 				<!-- /.section-price__rate -->
-				<div class="section-price__rate">
+				<div class="section-price__rate center">
 					<div class="section-price__date">С вторника<br>
 					по четверг</div>
 					<!-- /.section-price__date -->
@@ -234,32 +234,32 @@
 				<!-- /.section-desc -->
 				<div class="feedback-slider">
 					<div class="feedback-slide feedback-slide-1">
-						<button class="button-play button-play-1">
+						<button class="button-play button-play-1" onclick="$('.video-popup-1').show();">
 						<img src="img/play.png" alt="">
 						</button>
 					</div>
 					<div class="feedback-slide feedback-slide-2">
-						<button class="button-play button-play-2">
+						<button class="button-play button-play-2" onclick="$('.video-popup-2').show();">
 						<img src="img/play.png" alt="">
 						</button>
 					</div>
 					<div class="feedback-slide feedback-slide-3">
-						<button class="button-play button-play-3">
+						<button class="button-play button-play-3" onclick="$('.video-popup-3').show();">
 						<img src="img/play.png" alt="">
 						</button>
 					</div>
 					<div class="feedback-slide feedback-slide-4">
-						<button class="button-play button-play-4">
+						<button class="button-play button-play-4" onclick="$('.video-popup-4').show();">
 						<img src="img/play.png" alt="">
 						</button>
 					</div>
 					<div class="feedback-slide feedback-slide-5">
-						<button class="button-play button-play-5">
+						<button class="button-play button-play-5" onclick="$('.video-popup-5').show();">
 						<img src="img/play.png" alt="">
 						</button>
 					</div>
 					<div class="feedback-slide feedback-slide-6">
-						<button class="button-play button-play-6">
+						<button class="button-play button-play-6" onclick="$('.video-popup-6').show();">
 						<img src="img/play.png" alt="">
 						</button>
 					</div>
@@ -324,10 +324,10 @@
 				</div>
 				<!-- /.logo -->
 				<div class="copy">
-					<img src="img/copy.png" alt="">
+					<a href="http://sepayr.ru/"><img src="img/copy.png" alt=""></a>
 				</div>
 				<!-- /.copy -->
-				<div class="tel">+7 (999) 324-54-45</div>
+				<div class="tel"><a href="tel:+79993245445">+7 (999) 324-54-45</a></div>
 				<!-- /.tel -->
 				<button class="button-o">
 					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16" height="16" viewBox="0 0 480.56 480.56" style="enable-background:new 0 0 480.56 480.56;" xml:space="preserve">
@@ -408,38 +408,20 @@
 		<script src="slick/slick.js"></script>
 		<script>
 		$(document).ready(function() {
-		$('.button-play-1').on("click", function(){
-		$('.video-popup-1').show()
-		});
 		$('.close-1').on("click", function(){
 		$('.video-popup').hide()
-		});
-		$('.button-play-2').on("click", function(){
-		$('.video-popup-2').show()
 		});
 		$('.close-2').on("click", function(){
 		$('.video-popup').hide()
 		});
-		$('.button-play-3').on("click", function(){
-		$('.video-popup-3').show()
-		});
 		$('.close-3').on("click", function(){
 		$('.video-popup').hide()
-		});
-		$('.button-play-4').on("click", function(){
-		$('.video-popup-4').show()
 		});
 		$('.close-4').on("click", function(){
 		$('.video-popup').hide()
 		});
-		$('.button-play-5').on("click", function(){
-		$('.video-popup-5').show()
-		});
 		$('.close-5').on("click", function(){
 		$('.video-popup').hide()
-		});
-		$('.button-play-6').on("click", function(){
-		$('.video-popup-6').show()
 		});
 		$('.close-6').on("click", function(){
 		$('.video-popup').hide()
@@ -478,6 +460,7 @@
 		arrows: true,
 		dots: false,
 		infinite: true,
+		initialSlide: 7,
 		responsive: [
 		{
 		breakpoint: 576,

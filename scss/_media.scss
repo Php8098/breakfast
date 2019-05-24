@@ -26,6 +26,9 @@
             &__tel {
                 margin-left: 40px;
                 display: inline-block;
+                a {    
+                    color: #303030;
+                }
             }
 
         }
@@ -41,6 +44,7 @@
                 }
                 &__desc {
                     margin-left: 0;
+                    margin-top: 20px;
                     &_small {
                         margin-left: 0;
                     }
@@ -49,7 +53,8 @@
         }
         .button-o {
             margin: 0 auto;
-            margin-top: 29px;
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
 
     }
@@ -64,7 +69,7 @@
         color: #303030;
         margin-top: 20px;
 
-        img {
+        svg {
             border-right: 1px solid rgba(#303030, 0.3);
         }
     }
@@ -198,39 +203,17 @@
         margin: 0;
         height: 270px !important;
         width: 89%;
-        margin-left: 8%;
-        margin-right: 8%;
+        margin: 0 auto;
         margin-top: -50px;
         .photos-slide {
             opacity: 1;
-            &-1 {
-                background: url(../img/slider-2/img-1_mobile.png) center no-repeat;
-            }
-            &-2 {
-                background: url(../img/slider-2/img-2_mobile.png) center no-repeat;
-            }
-            &-3 {
-                background: url(../img/slider-2/img-3_mobile.png) center no-repeat;
-            }
-            &-4 {
-                background: url(../img/slider-2/img-4_mobile.jpg) center no-repeat;
-            }
-            &-5 {
-                background: url(../img/slider-2/img-5_mobile.jpg) center no-repeat;
-            }
-            &-6 {
-                background: url(../img/slider-2/img-6_mobile.png) center no-repeat;
-            }
-            &-7 {
-                background: url(../img/slider-2/img-7_mobile.png) center no-repeat;
-            }
         }
         .slick-track, .draggable {
-            margin-left: -6%;
+            margin-left: 0%;
         }
         .slick-next {
             top: 90%;
-            right: -15%;
+            right: -20%;
         }
         .slick-prev {
             top: 90%;
@@ -244,17 +227,25 @@
         width: 100%;
         .copy {
             margin-left: 0;
+            margin-top: 32px;
+        }
+        .tel {
+            margin-top: 32px;
         }
         .button-o {
             margin: 0 auto;
-            margin-top: 52px;
+            margin-top: 32px;
         }
     }
     .video-popup {
         display: none;
+        .popup {
+            width: 320px;
+        }
     }
     .popup {
         width: 336px;
+        height: 500px;
         input {
             margin-left: 30px;
             padding: 24px 35.2px;
@@ -272,7 +263,7 @@
         }
     }
     iframe {
-        max-width: 90% !important;
+        max-width: 100% !important;
     }
     .rates-before {
         display: none;
