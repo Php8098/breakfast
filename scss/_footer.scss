@@ -6,16 +6,46 @@
 	margin-top: 50px;
 	padding-bottom: 29px;
 	.button-o {
-		margin: 0;
 		margin-top: 52px;
-		border: 1px solid #303030;
+		text-transform: uppercase;
+		letter-spacing: 0.6px;
+		font-size: 12px;
+		font-weight: 400;
 		color: #303030;
-		svg {
-			border-right: 1px solid #303030;
+		font-family: 'Gilroy-SemiBold', sans-serif;
+		background-color: transparent;
+		border: 1px solid #303030;
+		border-radius: 50px;
+		height: 45px;
+		width: 200px;
+		text-align: center;
+		vertical-align: middle;
+		margin-left: 31px;
+		outline: none;
+		transition: 0.5s ease-in-out;
+	
+		span {
+			padding-top: 6px;
 		}
+	
 		&:hover {
+			background: #17dee9;
 			color: #fff;
-			border: 1px solid rgba(255, 255, 255, 0.3);
+			svg {
+				fill: #fff;
+			}
+		}
+	
+		svg {
+			margin-right: 15px;
+			padding-top: 13px;
+			padding-bottom: 13px;
+			padding-right: 14px;
+			vertical-align: middle;
+			transition: 0.5s ease-in-out;
+			border-right: 1px solid #303030;
+			fill: #17dee9;
+			box-sizing: content-box;
 		}
 	}
 }

@@ -3,7 +3,7 @@
 
 	.slick-track, .draggable {
 		height: 455px;
-		margin-left: -4.5%;
+		margin-left: -2%;
 	}
 
 	.slick-next {
@@ -46,17 +46,12 @@
 	}
 }
 .slick-center {
-	margin-left: 0.2%;
-	margin-right: 0.4%;
+	margin-right: 0.26%;
 	.photos-slide {
-		width: 150% !important;
+		width: 120% !important;
 		height: 405px;
 		opacity: 1;
 		z-index: 14;
 		margin-top: 32px;
-		margin-left: -18%;
-		&-7 {
-			margin-left: -8% !important;
-		}
 	}
 }
