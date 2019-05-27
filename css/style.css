@@ -715,28 +715,20 @@ body {
 
 .footer .button-o {
   margin-top: 52px;
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
-  font-size: 12px;
-  font-weight: 400;
-  color: #303030;
-  font-family: 'Gilroy-SemiBold', sans-serif;
-  background-color: transparent;
-  border: 1px solid #303030;
-  border-radius: 50px;
-  height: 45px;
   width: 200px;
-  text-align: center;
-  vertical-align: middle;
-  margin-left: 31px;
-  outline: none;
-  -webkit-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid rgba(48, 48, 48, 0.29);
 }
 
 .footer .button-o span {
-  padding-top: 6px;
+  color: #303030;
+  font-family: 'Gilroy-SemiBold';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
 }
 
 .footer .button-o:hover {
@@ -750,14 +742,14 @@ body {
 
 .footer .button-o svg {
   margin-right: 15px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 15px;
+  padding-bottom: 17px;
   padding-right: 14px;
   vertical-align: middle;
   -webkit-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  border-right: 1px solid #303030;
+  border-right: 1px solid rgba(48, 48, 48, 0.29);
   fill: #17dee9;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
